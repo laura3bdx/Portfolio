@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Laura ROUEL / PORTFOLIO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/timelinejs-slider@0.1.0/dist/css/timeline.min.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    h2 {
+      font-size: 24px;
+    }
+    .cards {
+      padding: 4rem 0;
+    }
+    .owl-carousel {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .item {
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .title {
+      margin-left: 30px;
+    }
+    #myForm {
+      width: 50%;
+    }
+    .form_col {
+      display: inline-block;
+      margin-right: 15px;
+      padding: 3px 0;
+      width: 200px;
+      min-height: 1px;
+      text-align: right;
+    }
+    input {
+      padding: 2px;
+      border: 1px solid #CCC;
+      border-radius: 2px;
+      outline: none;
+    }
+    input:focus {
+      border-color: rgba(82, 168, 236, 0.75);
+      box-shadow: 0 0 8px rgba(82, 168, 236, 0.5);
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- <header class="has-background-primary">
+    <h1 class="is-size-1 has-text-white has-text-weight-bold">Animate Plugin Demo</h1>
+  </header> -->
+
+  <!-- CAROUSEL -->
+  <div class="owl-carousel owl-theme">
+    <div class="item"><img src="img/Stationery_le_regina_biarritz.jpg" alt=""><h2 class="title">Stationery le Regina Biarritz Hotel</h2></div>
+    <div class="item"><img src="img/Stationery_le_regina_biarritz2.jpg" alt=""><h2 class="title">Stationery le Regina Biarritz Hotel</h2></div>
+    <div class="item"><img src="img/Paper_bag_le_regina_biarritz_hotel.jpg" alt=""><h2 class="title">Paper bag le Regina Biarritz Hotel</h2></div>
+    <div class="item"><img src="img/Web_le_regina.jpg" alt=""><h2 class="title">Webdesign le Regina Biarritz Hotel</h2></div>
+    <div class="item"><img src="img/Window_signage_mockup_le_regina_biarritz.png" alt=""><h2 class="title">Window signage le Regina Biarritz Hotel</h2></div>
+  </div>
+
+  <!-- DESCRIPTION & SKILLS -->
+  <div class="cards">
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <div class="card" data-aos="fade-in">
+            <div class="card-content">
+              <h2>Hi !</h2>
+              <br>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus eum nihil enim odio sed quasi laudantium, commodi maxime dolor distinctio corporis soluta, aliquid laboriosam qui, quibusdam provident quos repellat! In quibusdam esse, iste placeat libero aliquam corrupti delectus sit ipsum, voluptate quasi dicta soluta enim repudiandae officia, dolore?
+              <br>
+              <br>
+              Consectetur tenetur quam, alias fugit eligendi reiciendis odio suscipit! Dolorem est hic iusto laborum nostrum, ipsum praesentium magnam adipisci, provident dolores quidem impedit illo dolorum temporibus sint, recusandae quasi, doloribus modi aut.
+              <br>
+              <br>
+              Dolor sit amet, consectetur adipisicing elit. Sint natus, odio eligendi ipsa a enim aspernatur qui incidunt aut dolores magni animi illum, laudantium nam commodi, reiciendis architecto quidem quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut necessitatibus officiis dolorum odio incidunt illum, minus quibusdam quia sit facere voluptate fugit accusamus sunt ratione harum maxime vero ullam assumenda earum voluptates itaque nulla. Iure in itaque, voluptatem at nisi provident quam quaerat, sequi amet fuga dolorum magni excepturi nam dolorem quidem tempore, quibusdam obcaecati atque inventore. Quibusdam voluptates, quam?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STUDIES -->
+  <!-- <div class="timeline-container timeline-theme-1">
+    <div class="timeline js-timeline">
+      <div data-time="2017">
+        YNOV CAMPUS BORDEAUX / Web, Com & Graphic Design
+      </div>
+    </div>
+  </div> -->
+
+  <!-- CONTACT FORMULAIRE -->
+  <form id="myForm">
+    <label for="lastName" class="form_col">Nom :</label>
+    <input type="text" name="lastName" id="lastName">
+    <br><br>
+
+    <label for="firstName" class="form_col">Prénom :</label>
+    <input type="text" name="firstName" id="firstName">
+    <br><br>
+
+    <label for="promo" class="form_col">Promotion :</label>
+    <input type="text" name="firstName" id="firstName">
+    <br><br>
+
+    <label for="email" class="form_col">Email :</label>
+    <input type="text" name="firstName" id="firstName">
+    <br><br>
+
+    <label for="birthDate" class="form_col">Date de naissance :</label>
+    <input type="text" name="firstName" id="firstName">
+    <br><br>
+
+    <label for="message" class="form_col">Message :</label>
+    <input type="text" name="firstName" id="firstName">
+    <br><br>
+
+    <button type="button" name="Envoyer" class="button">Envoyer</button>
+  </form>
+
+  <!-- INTEGRATIN JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/timelinejs-slider@0.1.0/dist/js/timeline.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
